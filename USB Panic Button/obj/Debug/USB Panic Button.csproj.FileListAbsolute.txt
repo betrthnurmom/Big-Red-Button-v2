@@ -1,0 +1,12 @@
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\USB Panic Button.exe.config
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\USB Panic Button.exe
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\USB Panic Button.pdb
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\DreamCheeky.BigRedButton.dll
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\HidLibrary.dll
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\bin\Debug\DreamCheeky.BigRedButton.pdb
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\USB Panic Button.csprojResolveAssemblyReference.cache
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\BP.Classes.Properties.Resources.resources
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\USB Panic Button.csproj.GenerateResource.Cache
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\USB Panic Button.exe
+c:\users\paren\documents\visual studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\USB Panic Button.pdb
+C:\Users\paren\Documents\Visual Studio 2013\Projects\USB Panic Button\USB Panic Button\obj\Debug\BP.Classes.frmMain.resources

@@ -1,0 +1,12 @@
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\bin\Debug\DreamCheeky.BigRedButton.dll
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\bin\Debug\DreamCheeky.BigRedButton.pdb
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\bin\Debug\HidLibrary.dll
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\bin\Debug\HidLibrary.pdb
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.csprojResolveAssemblyReference.cache
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.dll
+C:\Users\paren\Downloads\dreamcheeky-big-red-button-dotnet-master\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.pdb
+C:\Users\paren\Documents\Visual Studio 2013\Projects\Big Red Button\DreamCheeky.BigRedButton\bin\Debug\DreamCheeky.BigRedButton.dll
+C:\Users\paren\Documents\Visual Studio 2013\Projects\Big Red Button\DreamCheeky.BigRedButton\bin\Debug\DreamCheeky.BigRedButton.pdb
+C:\Users\paren\Documents\Visual Studio 2013\Projects\Big Red Button\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.dll
+C:\Users\paren\Documents\Visual Studio 2013\Projects\Big Red Button\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.pdb
+C:\Users\paren\Documents\Visual Studio 2013\Projects\Big Red Button\DreamCheeky.BigRedButton\obj\Debug\DreamCheeky.BigRedButton.csprojResolveAssemblyReference.cache
