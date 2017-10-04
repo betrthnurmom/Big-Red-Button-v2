@@ -12,11 +12,12 @@ namespace BP.Classes
 {
     public partial class frmMain : Form
     {
-        private PanicButtonActions button = new PanicButtonActions();
+        private PanicButtonActions button;
 
         public frmMain()
         {
             InitializeComponent();
+            button = new PanicButtonActions();
         }
 
         ~frmMain() { }
@@ -76,6 +77,7 @@ namespace BP.Classes
             if (this.WindowState != FormWindowState.Minimized)
             {
                 this.WindowState = FormWindowState.Minimized;
+                SaveSettings();
                 Hide();
                 e.Cancel = true;
             }
@@ -113,11 +115,6 @@ namespace BP.Classes
             SaveSettings();
         }
 
-        private void DoAction()
-        {
-            
-        }
-
         private void LoadSettings()
         {
             Properties.Settings settings = new Properties.Settings();
@@ -144,6 +141,11 @@ namespace BP.Classes
         {
             Show();
             WindowState = FormWindowState.Normal;
+        }
+
+        private void cmdTest_Click(object sender, EventArgs e)
+        {
+            button.PressButton();
         }
     }
 }

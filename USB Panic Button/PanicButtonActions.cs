@@ -12,42 +12,58 @@ namespace BP.Classes
     public class PanicButtonActions
     {
         private BigRedButton Device = new BigRedButton();
+        bool started = false;
+
         public PanicButtonActions()
         {
             Device.ButtonPressed += PressButton;
             Device.LidOpen += LidOpen;
             Device.LidClosed += LidClosed;
+            OpenConnection();
         }
 
         ~PanicButtonActions()
         {
-            Device.Stop();
+            Device.Dispose();
+            started = false;
         }
 
         public void OpenConnection()
         {
-            Device.Start();
+            if (!started)
+            {
+                Device.Start();
+                started = true;
+            }
         }
 
         private void LidClosed(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            frmPicture.Dispose();
+            frmPicture = null;
         }
 
         private void LidOpen(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+        }
+        public void PressButton()
+        {
+            PressButton(null, null);
         }
 
         private void PressButton(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
+        {       
+            ShowPicture();
         }
 
         public static Form frmPicture;
-        private static void ShowPicture(string p, bool blnShake)
+        private static void ShowPicture()
         {
-            Image _image = Image.FromFile(p);
+            Properties.Settings settings = new Properties.Settings();
+            settings.Reload();
+
+            Image _image = Image.FromFile(settings.Picture);
 
             // Make a Form with a PictureBox
             frmPicture = new Form();

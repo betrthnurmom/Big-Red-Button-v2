@@ -60,6 +60,7 @@
             this.cmdTest.TabIndex = 26;
             this.cmdTest.Text = "Test";
             this.cmdTest.UseVisualStyleBackColor = true;
+            this.cmdTest.Click += new System.EventHandler(this.cmdTest_Click);
             // 
             // cmdSoundClear
             // 
@@ -201,7 +202,7 @@
             this.Settings,
             this.Exit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(117, 48);
             // 
             // Settings
             // 
